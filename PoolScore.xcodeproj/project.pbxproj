@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A4A60AD139EA6F200873772 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4A60AC139EA6F200873772 /* UIKit.framework */; };
+		5A4A60AF139EA6F200873772 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4A60AE139EA6F200873772 /* Foundation.framework */; };
+		5A4A60B1139EA6F200873772 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4A60B0139EA6F200873772 /* CoreGraphics.framework */; };
+		5A4A60B7139EA6F200873772 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A4A60B5139EA6F200873772 /* InfoPlist.strings */; };
+		5A4A60BA139EA6F200873772 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4A60B9139EA6F200873772 /* main.m */; };
+		5A4A60BD139EA6F200873772 /* PoolScoreAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4A60BC139EA6F200873772 /* PoolScoreAppDelegate.m */; };
+		5A4A60C0139EA6F200873772 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A4A60BE139EA6F200873772 /* MainWindow.xib */; };
+		5A4A60C3139EA6F200873772 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4A60C2139EA6F200873772 /* FirstViewController.m */; };
+		5A4A60C6139EA6F200873772 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4A60C5139EA6F200873772 /* SecondViewController.m */; };
+		5A4A60C9139EA6F200873772 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A4A60C7139EA6F200873772 /* FirstView.xib */; };
+		5A4A60CC139EA6F200873772 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A4A60CA139EA6F200873772 /* SecondView.xib */; };
+		5A4A60D3139EA6F200873772 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4A60AC139EA6F200873772 /* UIKit.framework */; };
+		5A4A60D4139EA6F200873772 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4A60AE139EA6F200873772 /* Foundation.framework */; };
+		5A4A60D5139EA6F200873772 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4A60B0139EA6F200873772 /* CoreGraphics.framework */; };
+		5A4A60DD139EA6F300873772 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A4A60DB139EA6F200873772 /* InfoPlist.strings */; };
+		5A4A60E0139EA6F300873772 /* PoolScoreTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 5A4A60DF139EA6F300873772 /* PoolScoreTests.h */; };
+		5A4A60E2139EA6F300873772 /* PoolScoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4A60E1139EA6F300873772 /* PoolScoreTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A4A60D6139EA6F200873772 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A4A609F139EA6F200873772 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A4A60A7139EA6F200873772;
+			remoteInfo = PoolScore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A4A60A8139EA6F200873772 /* PoolScore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoolScore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A4A60AC139EA6F200873772 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5A4A60AE139EA6F200873772 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5A4A60B0139EA6F200873772 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5A4A60B4139EA6F200873772 /* PoolScore-Info.plist */ = {isa = PBXFileReference; path = "PoolScore-Info.plist"; sourceTree = "<group>"; };
+		5A4A60B6139EA6F200873772 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5A4A60B8139EA6F200873772 /* PoolScore-Prefix.pch */ = {isa = PBXFileReference; path = "PoolScore-Prefix.pch"; sourceTree = "<group>"; };
+		5A4A60B9139EA6F200873772 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5A4A60BB139EA6F200873772 /* PoolScoreAppDelegate.h */ = {isa = PBXFileReference; path = PoolScoreAppDelegate.h; sourceTree = "<group>"; };
+		5A4A60BC139EA6F200873772 /* PoolScoreAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PoolScoreAppDelegate.m; sourceTree = "<group>"; };
+		5A4A60BF139EA6F200873772 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		5A4A60C1139EA6F200873772 /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		5A4A60C2139EA6F200873772 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		5A4A60C4139EA6F200873772 /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		5A4A60C5139EA6F200873772 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		5A4A60C8139EA6F200873772 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		5A4A60CB139EA6F200873772 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		5A4A60D2139EA6F200873772 /* PoolScoreTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoolScoreTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A4A60DA139EA6F200873772 /* PoolScoreTests-Info.plist */ = {isa = PBXFileReference; path = "PoolScoreTests-Info.plist"; sourceTree = "<group>"; };
+		5A4A60DC139EA6F300873772 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5A4A60DE139EA6F300873772 /* PoolScoreTests-Prefix.pch */ = {isa = PBXFileReference; path = "PoolScoreTests-Prefix.pch"; sourceTree = "<group>"; };
+		5A4A60DF139EA6F300873772 /* PoolScoreTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PoolScoreTests.h; sourceTree = "<group>"; };
+		5A4A60E1139EA6F300873772 /* PoolScoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PoolScoreTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A4A60A5139EA6F200873772 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A4A60AD139EA6F200873772 /* UIKit.framework in Frameworks */,
+				5A4A60AF139EA6F200873772 /* Foundation.framework in Frameworks */,
+				5A4A60B1139EA6F200873772 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A4A60CE139EA6F200873772 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A4A60D3139EA6F200873772 /* UIKit.framework in Frameworks */,
+				5A4A60D4139EA6F200873772 /* Foundation.framework in Frameworks */,
+				5A4A60D5139EA6F200873772 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A4A609D139EA6F200873772 = {
+			isa = PBXGroup;
+			children = (
+				5A4A60B2139EA6F200873772 /* PoolScore */,
+				5A4A60D8139EA6F200873772 /* PoolScoreTests */,
+				5A4A60AB139EA6F200873772 /* Frameworks */,
+				5A4A60A9139EA6F200873772 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A4A60A9139EA6F200873772 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A4A60A8139EA6F200873772 /* PoolScore.app */,
+				5A4A60D2139EA6F200873772 /* PoolScoreTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A4A60AB139EA6F200873772 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A4A60AC139EA6F200873772 /* UIKit.framework */,
+				5A4A60AE139EA6F200873772 /* Foundation.framework */,
+				5A4A60B0139EA6F200873772 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A4A60B2139EA6F200873772 /* PoolScore */ = {
+			isa = PBXGroup;
+			children = (
+				5A4A60BB139EA6F200873772 /* PoolScoreAppDelegate.h */,
+				5A4A60BC139EA6F200873772 /* PoolScoreAppDelegate.m */,
+				5A4A60BE139EA6F200873772 /* MainWindow.xib */,
+				5A4A60C1139EA6F200873772 /* FirstViewController.h */,
+				5A4A60C2139EA6F200873772 /* FirstViewController.m */,
+				5A4A60C4139EA6F200873772 /* SecondViewController.h */,
+				5A4A60C5139EA6F200873772 /* SecondViewController.m */,
+				5A4A60C7139EA6F200873772 /* FirstView.xib */,
+				5A4A60CA139EA6F200873772 /* SecondView.xib */,
+				5A4A60B3139EA6F200873772 /* Supporting Files */,
+			);
+			path = PoolScore;
+			sourceTree = "<group>";
+		};
+		5A4A60B3139EA6F200873772 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A4A60B4139EA6F200873772 /* PoolScore-Info.plist */,
+				5A4A60B5139EA6F200873772 /* InfoPlist.strings */,
+				5A4A60B8139EA6F200873772 /* PoolScore-Prefix.pch */,
+				5A4A60B9139EA6F200873772 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5A4A60D8139EA6F200873772 /* PoolScoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A4A60DF139EA6F300873772 /* PoolScoreTests.h */,
+				5A4A60E1139EA6F300873772 /* PoolScoreTests.m */,
+				5A4A60D9139EA6F200873772 /* Supporting Files */,
+			);
+			path = PoolScoreTests;
+			sourceTree = "<group>";
+		};
+		5A4A60D9139EA6F200873772 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A4A60DA139EA6F200873772 /* PoolScoreTests-Info.plist */,
+				5A4A60DB139EA6F200873772 /* InfoPlist.strings */,
+				5A4A60DE139EA6F300873772 /* PoolScoreTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A4A60A7139EA6F200873772 /* PoolScore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A4A60E5139EA6F300873772 /* Build configuration list for PBXNativeTarget "PoolScore" */;
+			buildPhases = (
+				5A4A60A4139EA6F200873772 /* Sources */,
+				5A4A60A5139EA6F200873772 /* Frameworks */,
+				5A4A60A6139EA6F200873772 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PoolScore;
+			productName = PoolScore;
+			productReference = 5A4A60A8139EA6F200873772 /* PoolScore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A4A60D1139EA6F200873772 /* PoolScoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A4A60E8139EA6F300873772 /* Build configuration list for PBXNativeTarget "PoolScoreTests" */;
+			buildPhases = (
+				5A4A60CD139EA6F200873772 /* Sources */,
+				5A4A60CE139EA6F200873772 /* Frameworks */,
+				5A4A60CF139EA6F200873772 /* Resources */,
+				5A4A60D0139EA6F200873772 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A4A60D7139EA6F200873772 /* PBXTargetDependency */,
+			);
+			name = PoolScoreTests;
+			productName = PoolScoreTests;
+			productReference = 5A4A60D2139EA6F200873772 /* PoolScoreTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A4A609F139EA6F200873772 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 5A4A60A2139EA6F200873772 /* Build configuration list for PBXProject "PoolScore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5A4A609D139EA6F200873772;
+			productRefGroup = 5A4A60A9139EA6F200873772 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A4A60A7139EA6F200873772 /* PoolScore */,
+				5A4A60D1139EA6F200873772 /* PoolScoreTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A4A60A6139EA6F200873772 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A4A60B7139EA6F200873772 /* InfoPlist.strings in Resources */,
+				5A4A60C0139EA6F200873772 /* MainWindow.xib in Resources */,
+				5A4A60C9139EA6F200873772 /* FirstView.xib in Resources */,
+				5A4A60CC139EA6F200873772 /* SecondView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A4A60CF139EA6F200873772 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A4A60DD139EA6F300873772 /* InfoPlist.strings in Resources */,
+				5A4A60E0139EA6F300873772 /* PoolScoreTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A4A60D0139EA6F200873772 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A4A60A4139EA6F200873772 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A4A60BA139EA6F200873772 /* main.m in Sources */,
+				5A4A60BD139EA6F200873772 /* PoolScoreAppDelegate.m in Sources */,
+				5A4A60C3139EA6F200873772 /* FirstViewController.m in Sources */,
+				5A4A60C6139EA6F200873772 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A4A60CD139EA6F200873772 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A4A60E2139EA6F300873772 /* PoolScoreTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A4A60D7139EA6F200873772 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A4A60A7139EA6F200873772 /* PoolScore */;
+			targetProxy = 5A4A60D6139EA6F200873772 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A4A60B5139EA6F200873772 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A4A60B6139EA6F200873772 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5A4A60BE139EA6F200873772 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A4A60BF139EA6F200873772 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		5A4A60C7139EA6F200873772 /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A4A60C8139EA6F200873772 /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		5A4A60CA139EA6F200873772 /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A4A60CB139EA6F200873772 /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+		5A4A60DB139EA6F200873772 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A4A60DC139EA6F300873772 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A4A60E3139EA6F300873772 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5A4A60E4139EA6F300873772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		5A4A60E6139EA6F300873772 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PoolScore/PoolScore-Prefix.pch";
+				INFOPLIST_FILE = "PoolScore/PoolScore-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5A4A60E7139EA6F300873772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PoolScore/PoolScore-Prefix.pch";
+				INFOPLIST_FILE = "PoolScore/PoolScore-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5A4A60E9139EA6F300873772 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PoolScore.app/PoolScore";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PoolScoreTests/PoolScoreTests-Prefix.pch";
+				INFOPLIST_FILE = "PoolScoreTests/PoolScoreTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5A4A60EA139EA6F300873772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PoolScore.app/PoolScore";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PoolScoreTests/PoolScoreTests-Prefix.pch";
+				INFOPLIST_FILE = "PoolScoreTests/PoolScoreTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A4A60A2139EA6F200873772 /* Build configuration list for PBXProject "PoolScore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A4A60E3139EA6F300873772 /* Debug */,
+				5A4A60E4139EA6F300873772 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A4A60E5139EA6F300873772 /* Build configuration list for PBXNativeTarget "PoolScore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A4A60E6139EA6F300873772 /* Debug */,
+				5A4A60E7139EA6F300873772 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5A4A60E8139EA6F300873772 /* Build configuration list for PBXNativeTarget "PoolScoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A4A60E9139EA6F300873772 /* Debug */,
+				5A4A60EA139EA6F300873772 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A4A609F139EA6F200873772 /* Project object */;
+}
